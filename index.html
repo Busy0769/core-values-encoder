@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>中国特色社会主义核心价值观之安全驾驶指南</title>
+<!-- http://www.sexy0769.com/ -->
+<style type="text/css">
+body {
+	overFlow-x: hidden;
+	background-color: #eee;
+	min-width: 18em;
+	width: expression_r(document.body.clientWidth < 19 ?"18em" : "auto");
+}
+/* hr ---------------------------------------------- */
+hr {
+	width: 80%;
+	margin: 0 auto;
+	border: 0;
+	height: 4px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0),
+		rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0) );
+}
+/* button ---------------------------------------------- */
+.button {
+	display: inline-block;
+	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+	*display: inline;
+	vertical-align: baseline;
+	margin: 0 2px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 16px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+
+.button:hover {
+	text-decoration: none;
+}
+
+.button:active {
+	position: relative;
+	top: 1px;
+}
+/* textarea ---------------------------------------------- */
+textarea{
+    width: 30em;
+    height: 12em;
+    margin: 1em;
+}
+</style>
+</head>
+<body>
+	<header>
+		<h1 style="text-align: center;">中国特色社会主义核心价值观之安全驾驶指南</h1>
+	</header>
+	<div>
+		<textarea id="decoded-area" placeholder="危险驾驶区..."></textarea>
+		<br>
+		<button id='encode-btn' class="button">Encode &gt;&gt;</button><br>
+		<br><hr><br>
+		<textarea id="encoded-area" placeholder="安全驾驶区..."></textarea>
+		<br>
+		<button id='decode-btn' class="button">&lt;&lt; Decode</button>
+	</div><br><br><hr><br>
+	<footer style="text-align: center;">
+		<a href="http://www.sexy0769.com/"  class="button" style="color: #FF3366;">&lt;---返回主页</a>
+		<p>Celebrate 19 big, 2017</p>
+	</footer>
+	<script type="text/javascript" src="./dist/bundle.js"></script>
+</body>
+</html>
